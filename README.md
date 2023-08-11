@@ -29,3 +29,16 @@ Note: As the purpose of this chapter is to get familiarized with the file layout
 2. Styles like Light and Dark mode can be configured in styles.xml file, under the resource folder.
 3. The overall layout of files enable different teams to work together at the same time (Design, Programmer, Testers, etc.)
 4. XML files across the app will have convoluted references across the directory, but everything is interconnected.
+
+# Chapter 4
+Example using ConstraintLayout, TableLayout, and a menu to toggle between the two.
+
+## Features of project:
+1. ConstraintLayout - Contains multiple components constraint to each other. Includes a calendar widget, text button and an image view
+2. Tablelayout - Sample 2 by 2 table with configured layout columns
+3. Main menu - Made using a linearlayout, features buttons that can switch between different pages.
+
+## Things I have learnt:
+1. The TableLayout can be useful for listing out things table format with headers and rows.
+2. I have learnt to switch between different pages using setContextView. Need to explore how can I improve the switching using transitions between views.
+3. I have learnt how to use constraints to allow easier designing of components, since it enables multiple edits of position, relative to another component.
